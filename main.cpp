@@ -30,7 +30,6 @@ int main() {
 
 	delete headNode;
 	delete secondaryNode;
-	delete currentNode;
 
 	return 0;
 }
