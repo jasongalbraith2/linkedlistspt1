@@ -1,6 +1,9 @@
 #ifndef STUDENT_H
 #define STUDENT_H
 
-class Student;
+class Student {
+public:
+    Student();
+};
 
 #endif
