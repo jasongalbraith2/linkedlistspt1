@@ -6,7 +6,10 @@ Node::Node(Student* student) {
 	next = nullptr;
 }
 
-Node::~Node() {}
+Node::~Node() {
+	delete student;
+	delete next;
+}
 
 Node* Node::getNext() {
 	return next;
