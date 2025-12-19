@@ -8,7 +8,6 @@ Node::Node(Student* student) {
 
 Node::~Node() {
 	delete data;
-	delete next;
 }
 
 Node* Node::getNext() {
